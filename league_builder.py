@@ -37,7 +37,7 @@ def build_teams():
             teams['Sharks'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
         if get_team == 'Dragons':
             teams['Dragons'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
-        else:
+        if get_team == 'Raptors':
             teams['Raptors'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
     for kid in get_inxp_kids:
         get_team = next(team_names)
@@ -45,7 +45,7 @@ def build_teams():
             teams['Sharks'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
         if get_team == 'Dragons':
             teams['Dragons'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
-        else:
+        if get_team == 'Raptors':
             teams['Raptors'].append([kid['Name'], kid['Soccer Experience'], kid['Guardian Name(s)']])
     return(teams)
     
