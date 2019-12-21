@@ -50,7 +50,7 @@ def build_teams():
     return(teams)
     
 
-# Create a text file with the a list of the teams, players, and experience
+# Create a text file with a list of the teams, players, players parents, and experience
 def write_file():
     team_data = build_teams()
     for key in team_data:
